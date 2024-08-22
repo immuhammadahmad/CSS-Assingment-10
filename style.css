@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+      width: 100%;
+        background-image: url(background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+      
+}
+header{
+    width: 100%;
+position: absolute;
+top: 10px;
+    border-bottom: 2px solid #CB6F18;
+    box-shadow: 0px 0px 30px #CB6F18;
+    margin-top: -5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.u{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #F39216;
+    
+
+}
+.l{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.l:hover{
+    border: 2px solid #F39216;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px#CB6F18;
+    cursor: pointer;
+   
+ 
+}
+.logo{
+    width: 8%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+.ui{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #F39216;
+ position: absolute;
+ left: 1000px;
+}
+
+.i{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.i:hover{
+color: black;
+background-color: white;
+    box-shadow: 0px 0px 20px#CB6F18;
+    cursor: pointer;
+   
+ 
+}
+.text{
+    width: 40%;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.leaf1{
+    width: 15%;
+    rotate: 60deg;
+    animation-name: leaf1;
+    animation-duration: 10s;
+
+}
+.ycg{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: -399px;
+    top: 100px;
+    animation-name: bt; 
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.lor{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    position: absolute;
+    top: 300px;
+    left: -2000px;
+    animation-name: t;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.bookb{
+    background-color: #F39216;
+    height: 35%;
+    position: absolute;
+left: -50px;
+    z-index: 2;
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    top: 450px;
+    left: -250px;
+    color: white;
+    border: 2px solid white;
+    width: 30%;
+    animation-name: book;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+.bookb:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+    box-shadow: 15px 15px 50px #F39216;
+}
+.leaf2{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    width: 15%;
+}
+.honey{
+    position: absolute;
+    left: 900px;
+    top: 150px;
+}
+.mh{
+
+    position: absolute;
+    right: -899px;
+    top: -30px;
+    animation-name: ms; 
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.bee1{
+    position: absolute;
+    left: 5px;
+    animation-name: e1;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+
+    
+}
+.bee2{
+    position: absolute;
+    left: 1200px;
+    width: 5%;
+    overflow-y: hidden;
+    animation-name: e2;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+}
+.bee3{
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    animation-name: e3;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+.bee4{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    animation-name: e4;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+}
+@keyframes book {
+
+    from{
+      right: 0;
+    }
+    to{
+   left: 10px;
+    }
+
+    
+}
+@keyframes bt {
+
+    from{
+      right: 0;
+    }
+    to{
+   left: 10px;
+    }
+
+}
+@keyframes t {
+
+    from{
+      right: 0;
+    }
+    to{
+   left: 10px;
+    }
+
+}
+@keyframes mainh {
+
+    from{
+      right: 0;
+    }
+    to{
+   left: 10px;
+    }
+
+}
+
+@keyframes e1{
+
+    to{
+        /* background-color: purple; */
+        color: white;
+        top: 500px;
+        left: 900px;
+        
+    }
+
+    from{
+        /* background-color: white; */
+    }
+
+}
+@keyframes e2{
+
+    to{
+        /* background-color: purple; */
+        color: white;
+        top: 200px;
+        left: -0.5px;
+        
+    }
+
+    from{
+        /* background-color: white; */
+    }
+
+}
+@keyframes e3{
+
+    to{
+        /* background-color: purple; */
+        color: white;
+   top: 200px;
+   right: -1000px;
+   
+        
+    }
+
+    from{
+        right: -1000px;
+    }
+
+}
+@keyframes e4{
+
+    to{
+        /* background-color: purple; */
+        color: white;
+   top: -500px;
+
+   
+        
+    }
+
+   
+}
+@keyframes ms {
+
+    from{
+    left: 0;
+    }
+    to{
+   right: -150px;
+    }
+
+}
